@@ -50,6 +50,7 @@ class downloadWebPicture{
             val imgUrl = URL(url)
 
             val httpURLConnection: HttpURLConnection = imgUrl.openConnection() as HttpURLConnection
+            //check 是否支援續傳
             httpURLConnection.setRequestProperty("Range", "bytes=" + this.desPos + "-")
             httpURLConnection.connect()
 
