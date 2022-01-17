@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">HW1 HTTP downloader</string>
+    <string name="startButtonName">Start</string>
+    <string name="pauseButtonName">Pause</string>
+    <string name="cancelButtonName">cancel</string>
+    <string name="resumeButtonName">Resume</string>
+    <string name="inputFileUrlString">Input url</string>
+</resources>
